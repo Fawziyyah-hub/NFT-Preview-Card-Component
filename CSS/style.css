@@ -1,0 +1,105 @@
+body{
+   background-color: hsl(217, 54%, 11%); 
+   min-height: 100vh;
+   justify-content: center;
+   align-items:center;
+   display: flex;
+   font-family: "outfit" sans-serif;
+;
+
+}
+
+main{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 18px;
+    max-width: 410px;
+    height: 61%;
+    
+}
+
+.equilibrium{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 28px;
+    width: 357px;
+    padding: 17px 19px;
+    display: block;
+
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 17px;
+
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    margin: 20px;
+    line-height: 1.5;
+    width: 69%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.price{
+    color: hsl(178, 100%, 50%);
+    margin-left: 20px;
+    font-weight:600 ;
+}
+
+span{
+    position: relative;
+    bottom: 3px;
+}
+
+
+.time{
+    color: hsl(215, 51%, 70%);
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+hr{
+    background-color: hsl(215,32%, 27%);
+    height: 1px;
+    border: none;
+    margin: 20px;
+
+}
+
+.avatar{
+  width: 8%;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-left: 19px;
+  margin-bottom: 15px;
+
+}
+
+.white{
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 31%;
+    
+}
+
+.footer{
+    margin-left: 7%;
+    color: hsl(215, 51%, 70%);
+    left: 10%;
+    position: relative;
+    bottom: 37px;
+    margin-top: -10px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+
